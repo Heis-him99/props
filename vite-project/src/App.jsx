@@ -4,7 +4,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import RestaurantLanding from "./component/RestaurantLanding";
-import LoginPage from "./Pages/LoginPage";
 import SignupPage from "./Pages/PaymentPage";
 import Menu from "./component/Menu";
 import OrderPage from "./Pages/OrderPage";
@@ -18,7 +17,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<RestaurantLanding />} />
-        <Route path="/Login" element={<LoginPage />} />
         <Route path="/Menu" element={<Menu />} />
         <Route path="/Order" element={<OrderPage />} />
         <Route path="/Payment" element={<PaymentPage />} />
