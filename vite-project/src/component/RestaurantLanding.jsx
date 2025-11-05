@@ -162,7 +162,7 @@ function RestaurantLanding() {
 
   return (
     <div style={styles.container}>
-      {/* Navigation */}
+      
       <nav style={styles.nav}>
         <h1 style={styles.logo}>
          MEAL<span style={{ color: "#222" }}>Matrix</span>
@@ -175,7 +175,7 @@ function RestaurantLanding() {
             <a href="#about" style={styles.navLink}>About</a>
             <a href="/ordersHistory" style={styles.navLink}>History</a>
             <a href="/menu">
-              <button style={styles.orderBtn}>Order Now</button>
+              <button style={styles.orderBtn}>Create Menu</button>
             </a>
           </div>
         ) : (
@@ -201,15 +201,18 @@ function RestaurantLanding() {
         )}
       </nav>
 
-      {/* Hero Section */}
+  
       <header style={styles.hero}>
         <div style={styles.heroText}>
           <h2 style={styles.heroTitle}>Taste the Difference</h2>
           <p style={styles.heroDesc}>
-            Experience gourmet meals crafted with love. Fresh ingredients, vibrant flavors, and a dining experience you'll never forget. Visit us today!
+           Welcome to MEALMatrix, where fine dining meets innovation.
+Every meal is crafted with precision, every flavor tells a story.
+Take your time, explore our menu, and indulge in an experience made to satisfy both taste and soul.
+What would you like to have today?
           </p>
           <a href="/menu">
-            <button style={styles.heroBtn}>Create Menu</button>
+            <button style={styles.heroBtn}>Explore Menu</button>
           </a>
         </div>
 
@@ -220,16 +223,16 @@ function RestaurantLanding() {
         />
       </header>
 
-      {/* About Section */}
+     
       <section id="about" style={styles.about}>
         <h2 style={styles.aboutTitle}>About Us</h2>
         <p style={styles.aboutText}>
-         Welcome to MEALMatrix, where great taste meets unforgettable experiences.
-We’re more than just a restaurant; we’re a space where flavor, comfort and creativity come together to make every meal special.
+        MEALMatrix is where great taste meets unforgettable experiences.
+Were more than just a restaurant; we're a space where flavor, comfort and creativity come together to make every meal special.
         </p>
       </section>
 
-      {/* Footer */}
+   
       <footer style={styles.footer}>
         © {new Date().getFullYear()} MEALMatrix. All rights reserved.
       </footer>

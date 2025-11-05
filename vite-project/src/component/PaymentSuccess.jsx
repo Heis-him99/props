@@ -94,7 +94,7 @@ function PaymentSuccess() {
     <div style={styles.page}>
       <div style={styles.card}>
         <div style={styles.badge}>
-          {/* SVG checkmark — perfectly responsive */}
+        
           <svg
             style={styles.svg}
             viewBox="0 0 52 52"
