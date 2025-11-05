@@ -6,18 +6,22 @@ function Menu() {
 
   const defaultMenu = [
     { id: 1, name: "Cheeseburger", price: 5.99, category: "Main Course", image: "https://images.unsplash.com/photo-1550547660-d9450f859349" },
-    // { id: 2, name: "Margherita Pizza", price: 8.99, category: "Main Course", image: "https://unsplash.com/photos/round-cooked-pizza-x00CzBt4Dfk" },
-    // { id: 3, name: "Spaghetti Pasta", price: 7.99, category: "Main Course", image: "https://images.unsplash.com/photo-1589307000642-2f6c3a0e8c3e" },
+    { id: 2, name: " Orange Juice", price: 8.99, category: "Drinks", image: "https://images.unsplash.com/photo-1600271886742-f049cd451bba?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1974" },
+    { id: 3, name: " Pasta", price: 7.99, category: "Main Course", image: "https://images.unsplash.com/photo-1611270629569-8b357cb88da9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687" },
     { id: 4, name: "Grilled Salmon", price: 12.99, category: "Main Course", image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092" },
-    // { id: 5, name: "Caesar Salad", price: 4.99, category: "Appetizers", image: "https://images.unsplash.com/photo-1552332386-f8dd00dc2f65" },
-    // { id: 6, name: "Bruschetta", price: 3.99, category: "Appetizers", image: "https://images.unsplash.com/photo-1608753271453-1786f47d1c6a" },
-    // { id: 7, name: "Chocolate Cake", price: 3.99, category: "Desserts", image: "https://images.unsplash.com/photo-1606755962775-1f7a7a7d61a0" },
-    // { id: 8, name: "Fruit Tart", price: 4.49, category: "Desserts", image: "https://images.unsplash.com/photo-1607479937128-314f3e1edb77" },
-    // { id: 9, name: "Coca Cola", price: 1.99, category: "Drinks", image: "https://images.unsplash.com/photo-1598511723698-9c02a662b2f8" },
-    // { id: 10, name: "Orange Juice", price: 2.49, category: "Drinks", image: "https://images.unsplash.com/photo-1580910051075-99a802d2e82c" },
+    { id: 5, name: "Caesar Salad", price: 4.99, category: "Appetizers", image: "https://images.unsplash.com/photo-1746211108786-ca20c8f80ecd?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" },
+    { id: 6, name: "Bruschetta", price: 3.99, category: "Appetizers", image: "https://images.unsplash.com/photo-1594978583693-8dfdfc93f052?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1172" },
+    { id: 7, name: "Chocolate Cake", price: 3.99, category: "Desserts", image: "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=&fit=crop&q=80&w=803" },
+    { id: 8, name: "Fruit Tart", price: 4.49, category: "Desserts", image: "https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687" },
+    { id: 9, name: "Coca Cola", price: 1.99, category: "Drinks", image: "https://images.unsplash.com/photo-1583683433877-042a75ba47e3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=749" },
+    { id: 10, name: "Margherita Pizza", price: 2.49, category: "Main Course", image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1169" },
+    { id: 11, name: "cocktail", price: 2.49, category: "Drinks", image: "https://images.unsplash.com/photo-1657313666513-70770d329ef4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687" },
+    { id: 12, name: "Taco", price: 2.49, category: "Main Course", image: "https://images.unsplash.com/photo-1604467715878-83e57e8bc129?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=688" },
+
+
   ];
 
-  const [menuItems, setMenuItems] = useState(JSON.parse(localStorage.getItem("menuItems")) || defaultMenu);
+  const [menuItems, setMenuItems] = useState( defaultMenu);
   const [order, setOrder] = useState(JSON.parse(localStorage.getItem("order")) || []);
   const [newMeal, setNewMeal] = useState({ name: "", price: "", category: "Main Course", image: "" });
   const [selectedCategory, setSelectedCategory] = useState("All");
