@@ -6,15 +6,15 @@ function Menu() {
 
   const defaultMenu = [
     { id: 1, name: "Cheeseburger", price: 5.99, category: "Main Course", image: "https://images.unsplash.com/photo-1550547660-d9450f859349" },
-    { id: 2, name: "Margherita Pizza", price: 8.99, category: "Main Course", image: "https://images.unsplash.com/photo-1601924582975-634da8a3f9a3" },
-    { id: 3, name: "Spaghetti Pasta", price: 7.99, category: "Main Course", image: "https://images.unsplash.com/photo-1589307000642-2f6c3a0e8c3e" },
+    // { id: 2, name: "Margherita Pizza", price: 8.99, category: "Main Course", image: "https://unsplash.com/photos/round-cooked-pizza-x00CzBt4Dfk" },
+    // { id: 3, name: "Spaghetti Pasta", price: 7.99, category: "Main Course", image: "https://images.unsplash.com/photo-1589307000642-2f6c3a0e8c3e" },
     { id: 4, name: "Grilled Salmon", price: 12.99, category: "Main Course", image: "https://images.unsplash.com/photo-1600891964599-f61ba0e24092" },
-    { id: 5, name: "Caesar Salad", price: 4.99, category: "Appetizers", image: "https://images.unsplash.com/photo-1552332386-f8dd00dc2f65" },
-    { id: 6, name: "Bruschetta", price: 3.99, category: "Appetizers", image: "https://images.unsplash.com/photo-1608753271453-1786f47d1c6a" },
-    { id: 7, name: "Chocolate Cake", price: 3.99, category: "Desserts", image: "https://images.unsplash.com/photo-1606755962775-1f7a7a7d61a0" },
-    { id: 8, name: "Fruit Tart", price: 4.49, category: "Desserts", image: "https://images.unsplash.com/photo-1607479937128-314f3e1edb77" },
-    { id: 9, name: "Coca Cola", price: 1.99, category: "Drinks", image: "https://images.unsplash.com/photo-1598511723698-9c02a662b2f8" },
-    { id: 10, name: "Orange Juice", price: 2.49, category: "Drinks", image: "https://images.unsplash.com/photo-1580910051075-99a802d2e82c" },
+    // { id: 5, name: "Caesar Salad", price: 4.99, category: "Appetizers", image: "https://images.unsplash.com/photo-1552332386-f8dd00dc2f65" },
+    // { id: 6, name: "Bruschetta", price: 3.99, category: "Appetizers", image: "https://images.unsplash.com/photo-1608753271453-1786f47d1c6a" },
+    // { id: 7, name: "Chocolate Cake", price: 3.99, category: "Desserts", image: "https://images.unsplash.com/photo-1606755962775-1f7a7a7d61a0" },
+    // { id: 8, name: "Fruit Tart", price: 4.49, category: "Desserts", image: "https://images.unsplash.com/photo-1607479937128-314f3e1edb77" },
+    // { id: 9, name: "Coca Cola", price: 1.99, category: "Drinks", image: "https://images.unsplash.com/photo-1598511723698-9c02a662b2f8" },
+    // { id: 10, name: "Orange Juice", price: 2.49, category: "Drinks", image: "https://images.unsplash.com/photo-1580910051075-99a802d2e82c" },
   ];
 
   const [menuItems, setMenuItems] = useState(JSON.parse(localStorage.getItem("menuItems")) || defaultMenu);
